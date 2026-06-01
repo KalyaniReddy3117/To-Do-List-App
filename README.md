@@ -54,7 +54,7 @@ python3 todo.py
 ## 💻 Sample Output
 
 ```text
-===== TO-DO LIST =====
+______TO DO LIST_____
 1. Add Task
 2. View Tasks
 3. Remove Task
@@ -62,7 +62,10 @@ python3 todo.py
 
 Enter your choice: 1
 Enter task: Complete Python Assignment
-Task added successfully!
+Task added successfully
+Enter your choice: 4
+To Do list app end
+
 ```
 
 ## 🎯 Future Enhancements
