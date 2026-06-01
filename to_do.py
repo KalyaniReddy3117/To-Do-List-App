@@ -19,12 +19,12 @@ while True:
     print("1. Add Task")
     print("2. View Task")
     print("3. Remove task")
-    print("4.  Exit")
+    print("4. Exit")
 
     choice=int(input("Enter your choice"))
 
     if choice==1:
-        task=input("Enter your Task:")
+        task=input("Enter task:")
         tasks.append(task)
         store_tasks(tasks)
         print("Task added successfully")
@@ -50,7 +50,7 @@ while True:
             except (ValueError,IndexError):
                 print("Invalid task number")
     elif choice==4:
-        print("Do to list app End")
+        print("To Do list app end")
         break
     else:
         print("Invalid choice,try again")
